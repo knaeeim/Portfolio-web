@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Nav Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.dark-2{
+    color: #474747;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.header{
+    /* padding: 15px; */
+    /* padding: 20px; */
+    /* margin-left: 20px; */
+    padding-left: 20px;
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: 20px 30px, right bottom;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 40px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.short-part{
+    color: red;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #474747;
+}
+
+.nav-links{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/*  Banner Style */
+
+.banner img{
+    width: 800px;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    margin-left: 50px;
+}
+
+.banner-grettings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-weight: 800;
+    font-size: 75px;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.banner-btns{
+    margin-top: 25px;
+    display: flex;
+    gap: 40px;
+}
+
+.banner img{
+    margin-left: 0;
+}
+
+/* Main Style */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About Section Title */
+
+.section-title{
+    font-size: 35px;
+}
+
+.section-description{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 130px;
+    margin: 130px 0;
+    text-align: center;
+}
+
+.about-border{
+    border: 1px solid #474747;
+    padding: 5px 10px;
+}
+.section-title{
+    font-size: 35px;
+}
+
+.about-items{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-items .item-title{
+    font-weight: 800;
+}
+
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+}
+
+.skills{
+    margin-bottom: 130px;
+}
+
+.skill{
+   padding: 20px;
+   /* border: 1px solid black;  */
+   border-radius: 5px;
+   box-shadow: 0px 6px 50px 0px #FFF8F3;
+}
+
+.skills-container .title-text, .description{
+    margin-top: 20px;
+}
+
+.skills-container .description{
+    text-align: justify;
+}
+
+.skill-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+/* resume style */
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume .section-title{
+    margin-bottom: 100px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.coulmn-title{
+    margin-bottom: 30px;
+}
+
+.experience{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.experinece-description{
+    margin-top: 20px;
+}
+
+.resume{
+    margin-bottom: 130px;
+}
+
+/* footer style */
+
+.footer-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-cls{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 130px 180px;
+}
+
+.footer-column input[type="text"], input[type="email"], textarea{
+    display: block;
+    padding: 15px;
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+}
+
+.footer-column input[type="submit"]{
+    margin-top: 30px;
+}
+
+.footer-column{
+    /* padding-top: 130px; */
+    padding-left: 130px;    
+    padding-right: 60px;
+    /* border: 1px solid black; */
+    width: 50%;
+}
+
+.footer-links{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+
+.footer-des{
+    margin-top: 30px;
+}
